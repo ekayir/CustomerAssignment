@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Test\\AssignmentSigortamNet.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Data\\AssignmentSigortamNet.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Data\\AssignmentSigortamNet.Data.csproj",
+        "projectName": "AssignmentSigortamNet.Data",
+        "projectPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Data\\AssignmentSigortamNet.Data.csproj",
+        "packagesPath": "C:\\Users\\ekbor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ekbor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Integration\\AssignmentSigortamNet.Integration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Integration\\AssignmentSigortamNet.Integration.csproj",
+        "projectName": "AssignmentSigortamNet.Integration",
+        "projectPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Integration\\AssignmentSigortamNet.Integration.csproj",
+        "packagesPath": "C:\\Users\\ekbor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Integration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ekbor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Service\\AssignmentSigortamNet.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Service\\AssignmentSigortamNet.Service.csproj",
+        "projectName": "AssignmentSigortamNet.Service",
+        "projectPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Service\\AssignmentSigortamNet.Service.csproj",
+        "packagesPath": "C:\\Users\\ekbor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ekbor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Data\\AssignmentSigortamNet.Data.csproj": {
+                "projectPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Data\\AssignmentSigortamNet.Data.csproj"
+              },
+              "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Integration\\AssignmentSigortamNet.Integration.csproj": {
+                "projectPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Integration\\AssignmentSigortamNet.Integration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Test\\AssignmentSigortamNet.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Test\\AssignmentSigortamNet.Test.csproj",
+        "projectName": "AssignmentSigortamNet.Test",
+        "projectPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Test\\AssignmentSigortamNet.Test.csproj",
+        "packagesPath": "C:\\Users\\ekbor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ekbor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Service\\AssignmentSigortamNet.Service.csproj": {
+                "projectPath": "C:\\Users\\ekbor\\source\\repos\\AssignmentSigortamNet\\AssignmentSigortamNet.Service\\AssignmentSigortamNet.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

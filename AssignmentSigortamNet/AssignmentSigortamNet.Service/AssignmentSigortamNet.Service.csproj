@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssignmentSigortamNet.Data\AssignmentSigortamNet.Data.csproj" />
+    <ProjectReference Include="..\AssignmentSigortamNet.Integration\AssignmentSigortamNet.Integration.csproj" />
+  </ItemGroup>
+
+</Project>

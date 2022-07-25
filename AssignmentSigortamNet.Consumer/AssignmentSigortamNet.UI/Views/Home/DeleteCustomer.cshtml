@@ -1,0 +1,29 @@
+﻿@model AssignmentSigortamNet.Data.Result<AssignmentSigortamNet.Data.CustomerDTO>
+@{
+    ViewData["Title"] = "Delete Customer Page";
+}
+
+<div class="alert alert-info alert-dismissible fade show" role="alert">
+    First Name : @Model.Data?.FirstName <br />
+    Last Name : @Model.Data?.FirstName <br />
+    National Id Number : @Model.Data?.NationalIdNumber <br />
+</div>
+
+@if (Model.IsSuccess == false && string.IsNullOrEmpty(Model.Message) == false)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        Ooopsss! @Model.Message
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+else @if (Model.IsSuccess == true && string.IsNullOrEmpty(Model.Message) == false)
+{
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+    @Model.Message
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+}
